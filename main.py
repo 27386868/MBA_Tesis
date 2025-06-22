@@ -9,7 +9,7 @@ app = FastAPI()
 DATA_DIR = "/persistent/data"
 ZIP_FILE = "recursos_humanos.zip"  # Debe estar en el repo Git
 ZIP_PATH = os.path.join(os.path.dirname(__file__), ZIP_FILE)
-EXTRACTED_PATH = os.path.join(DATA_DIR, "recursos_humanos")
+EXTRACTED_PATH = os.path.join(DATA_DIR, "Recursos Humanos")
 
 @app.on_event("startup")
 async def startup_event():
