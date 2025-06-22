@@ -7,7 +7,7 @@ from utils import download_and_extract_zip, initialize_embeddings, query_documen
 app = FastAPI()
 
 DATA_DIR = "/persistent/data"
-ZIP_FILE = "recursos_humanos.zip"  # Debe estar en el repo Git
+ZIP_FILE = "Recursos Humanos.zip"  # Debe estar en el repo Git
 ZIP_PATH = os.path.join(os.path.dirname(__file__), ZIP_FILE)
 EXTRACTED_PATH = os.path.join(DATA_DIR, "Recursos Humanos")
 
